@@ -7,7 +7,7 @@
                 //External Libraries
                 'underscore': 'lib/underscore',
                 'ring': 'lib/ring',
-                'pixi': 'lib/_pixi',
+                'pixi': 'lib/pixi',
                 'soundjs': 'lib/soundjs',
                 'easel': 'lib/easeljs',
                 'tween': 'lib/tween',
