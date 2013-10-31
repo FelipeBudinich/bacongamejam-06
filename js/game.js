@@ -7,7 +7,7 @@ define('game',
         var
             renderer = PIXI.autoDetectRenderer(890, 598),
             stage = new PIXI.Stage(0x000000, true),
-            texture = PIXI.Texture.fromImage("media/img/cards/0000.png"),
+            texture = PIXI.Texture.fromImage("media/img/cards/0000.webp"),
             card = new PIXI.Sprite(texture),
             init = function () {
 
@@ -35,7 +35,7 @@ define('game',
                 card.click = function(mouseData){
                     var randomCard_01 = Math.floor(Math.random()*10),
                         randomCard_10 = Math.floor(Math.random()*7);
-                    card.setTexture(PIXI.TextureCache["media/img/cards/00"+randomCard_10+randomCard_01+".png"]);
+                    card.setTexture(PIXI.TextureCache["media/img/cards/00"+randomCard_10+randomCard_01+".webp"]);
                 console.log("CLICK!");
                 };
                 requestAnimFrame(update);

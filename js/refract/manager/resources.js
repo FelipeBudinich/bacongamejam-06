@@ -5,7 +5,8 @@ define('resources',
         'ring',
         'soundjs',
         'easel',
-        'tween'
+        'tween',
+        'pixi'
     ],
     function (
         underscore,
